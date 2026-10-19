@@ -2,6 +2,21 @@
 
 # NuciWeb.Automation.Playwright
 
+## 📑 Table of Contents
+- [About](#about)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Browser Initialisation](#browser-initialisation)
+- [Notes](#notes)
+- [Architecture](#architecture)
+- [Privacy and Data](#privacy-and-data)
+- [Security](#security)
+- [Contributing](#contributing)
+- [Code of Conduct](#code-of-conduct)
+- [License](#license)
+
 ## About
 
 NuciWeb.Automation.Playwright provides a Playwright-based implementation for the `NuciWeb.Automation` abstractions.
@@ -89,6 +104,12 @@ When debug mode is disabled, the initialiser enables headless mode and blocks co
 - XPath selectors are used throughout the processor API.
 - Navigation includes retry logic and a Chromium error-page check before failing.
 - Make sure Playwright browser binaries are installed in the runtime environment before running automations.
+
+## 🏗️ Architecture
+
+NuciWeb.Automation.Playwright is a Playwright-based adapter that implements the `IWebProcessor` interface from NuciWeb.Automation.
+
+See the [architecture documentation](./ARCHITECTURE.md) for the system context, principal components, runtime flows, ownership boundaries, dependencies, constraints, and extension points.
 
 ## 🛡️ Privacy and Data
 
