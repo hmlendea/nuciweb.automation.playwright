@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="NuciWeb.Automation.Playwright/NuciWeb.Automation.Playwright.csproj" />
+  <Project Path="NuciWeb.Automation.Playwright.UnitTests/NuciWeb.Automation.Playwright.UnitTests.csproj" />
 </Solution>
