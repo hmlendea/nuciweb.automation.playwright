@@ -98,6 +98,12 @@ For the detailed description of how the application handles privacy and personal
 
 The library does not collect, store, or transmit personal data. All operations occur locally within the user's environment, and no telemetry, analytics, or crash reporting functionality is included.
 
+## 🔒 Security
+
+NuciWeb.Automation.Playwright is a browser automation library that operates locally within the user's environment. Security concerns related to the library itself should be reported through the repository's security policy.
+
+For the detailed security policy, including how to report vulnerabilities, see [SECURITY.md](./SECURITY.md).
+
 ## License
 
 This project is licensed under the `GNU General Public License v3.0` or later. See [LICENSE](./LICENSE) for details.
