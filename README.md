@@ -90,6 +90,14 @@ When debug mode is disabled, the initialiser enables headless mode and blocks co
 - Navigation includes retry logic and a Chromium error-page check before failing.
 - Make sure Playwright browser binaries are installed in the runtime environment before running automations.
 
+## 🛡️ Privacy and Data
+
+NuciWeb.Automation.Playwright does not collect, store, or transmit personal data. It operates as a browser automation library that interacts with web pages through the user's own browser session.
+
+For the detailed description of how the application handles privacy and personal data, see [PRIVACY.md](./PRIVACY.md).
+
+The library does not collect, store, or transmit personal data. All operations occur locally within the user's environment, and no telemetry, analytics, or crash reporting functionality is included.
+
 ## License
 
 This project is licensed under the `GNU General Public License v3.0` or later. See [LICENSE](./LICENSE) for details.
