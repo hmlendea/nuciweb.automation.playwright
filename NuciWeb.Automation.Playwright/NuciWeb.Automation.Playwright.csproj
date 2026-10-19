@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <RootNamespace>NuciWeb.Automation.Playwright</RootNamespace>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <Description>Playwright implementation for NuciWeb.Automation</Description>
     <Authors>Horațiu Mlendea</Authors>
     <Copyright>Copyright 2026 © Horațiu Mlendea</Copyright>
@@ -13,10 +13,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NuciWeb" Version="4.0.0" />
-    <PackageReference Include="NuciWeb.Automation" Version="1.0.0" />
-    <PackageReference Include="NuciWeb.HTTP" Version="1.5.0" />
-    <PackageReference Include="Microsoft.Playwright" Version="1.59.0" />
+    <PackageReference Include="NuciWeb" Version="4.1.0" />
+    <PackageReference Include="NuciWeb.Automation" Version="1.0.1" />
+    <PackageReference Include="NuciWeb.HTTP" Version="1.7.3" />
+    <PackageReference Include="Microsoft.Playwright" Version="1.63.0" />
   </ItemGroup>
 
 </Project>
